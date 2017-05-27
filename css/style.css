@@ -12,11 +12,30 @@ body {
     top: 0;
 }
 
+#navLeft {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+}
+
+#navLogo{
+    height: 56px;
+}
+
+h1{
+    font-size: 40px;
+    color: #203375;
+    display: inline-block;
+   vertical-align: text-bottom;
+    margin: 0 10px 7px auto;
+}
+
 #navList {
-    width: 65%;
+    width: 46%;
     margin: 0 auto;
     padding: 0;
     text-align: center;
+    display: inline-block;
 }
 
 .navBtn {
@@ -27,4 +46,12 @@ body {
     width: 70px;
     color: #fff;
     border-radius: 10px;
+}
+
+#navRight {
+    width: 23%;
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
 }
