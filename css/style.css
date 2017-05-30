@@ -1,6 +1,6 @@
 body {
     width: 100%;
-    margin: 0;
+    margin: 58px 0 0 0;
     padding: 0;
     background-color: #adadad;
 }
@@ -22,12 +22,12 @@ body {
     height: 56px;
 }
 
-h1{
+#navLeft > h1{
     font-size: 40px;
     color: #203375;
     display: inline-block;
    vertical-align: text-bottom;
-    margin: 0 10px 7px auto;
+    margin: 0 auto 7px auto;
 }
 
 #navList {
@@ -54,4 +54,22 @@ h1{
     display: inline-block;
     vertical-align: middle;
     text-align: right;
+}
+
+#navRight > h1{
+    font-size: 40px;
+    color: #CD0000;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin: 0 10px 7px auto;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+#heroLogo {
+    width: 100%;
+    margin: 0 auto;
 }
