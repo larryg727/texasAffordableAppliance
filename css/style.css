@@ -97,26 +97,32 @@ main {
     margin: 0 auto;
 }
 
-#leftColumn, #rightColumn {
+.column {
     display: inline-block;
     width: 45%;
     margin: 0 auto;
     color: #203375;
     font-size: 1.4em;
+    vertical-align: top;
 }
 
-#leftColumn ul {
+.column ul {
     list-style: none;
     /*color: white*/
 }
 
-#leftColumn  ul li:before {
+.column  ul li:before {
     content: "\2605";
 }
 
-#leftColumn h1, #leftColumn h2 {
+.column h1, .column h2, .column h3 {
     margin: 10px auto;
     text-align: center;
+}
+
+#map {
+
+    height: 400px;
 }
 
 span {
