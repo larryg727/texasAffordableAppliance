@@ -3,6 +3,7 @@ body {
     margin: 58px 0 0 0;
     padding: 0;
     background-color: #adadad;
+    color: #203375;
 }
 
 #navBar {
@@ -72,4 +73,52 @@ header {
 #heroLogo {
     width: 100%;
     margin: 0 auto;
+}
+
+header h1 {
+    margin: -35px auto;
+    font-size: 3em;
+    color: #203375;
+}
+
+main {
+    width: 85%;
+    margin: 0 auto;
+}
+
+#services {
+    width: 100%;
+    margin: 80px auto;
+    text-align: center;
+}
+
+#brandImg {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#leftColumn, #rightColumn {
+    display: inline-block;
+    width: 45%;
+    margin: 0 auto;
+    color: #203375;
+    font-size: 1.4em;
+}
+
+#leftColumn ul {
+    list-style: none;
+    /*color: white*/
+}
+
+#leftColumn  ul li:before {
+    content: "\2605";
+}
+
+#leftColumn h1, #leftColumn h2 {
+    margin: 10px auto;
+    text-align: center;
+}
+
+span {
+    color: #CD0000;
 }
