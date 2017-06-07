@@ -12,6 +12,8 @@ a {
     color: inherit;
 }
 
+
+
 #navBar {
     width: 100%;
     background-color: #ffffff;
@@ -22,7 +24,7 @@ a {
 
 #navLeft {
     display: inline-block;
-    width: 30%;
+    width: 35%;
     vertical-align: middle;
 }
 
@@ -39,7 +41,7 @@ a {
 }
 
 #navList {
-    width: 46%;
+    width: 36%;
     margin: 0 auto;
     padding: 0;
     text-align: center;
@@ -50,14 +52,14 @@ a {
     display: inline-block;
     background-color: #203375;
     padding: 10px;
-    margin: 10px 20px;
+    margin: 10px 5px;
     width: 70px;
     color: #fff;
     border-radius: 10px;
 }
 
 #navRight {
-    width: 23%;
+    width: 28%;
     margin: 0 auto;
     display: inline-block;
     vertical-align: middle;
