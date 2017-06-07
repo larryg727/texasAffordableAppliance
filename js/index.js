@@ -8,7 +8,7 @@
         var map = new google.maps.Map(document.getElementById('map'), {
             zoom: 9,
             center: {lat: 29.425997, lng: -98.486414},
-
+            scrollwheel:  false
         });
 
         // Define the LatLng coordinates for the polygon's path.

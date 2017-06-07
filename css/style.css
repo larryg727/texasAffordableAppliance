@@ -1,9 +1,15 @@
 body {
     width: 100%;
-    margin: 58px 0 0 0;
+    margin: 68px 0 0 0;
     padding: 0;
     background-color: #adadad;
     color: #203375;
+    font-family: 'Merriweather', serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 #navBar {
@@ -130,6 +136,15 @@ main {
 
 span {
     color: #CD0000;
+}
+
+#callToday {
+    color: #CD0000;
+    font-size: 2.5em;
+}
+
+#callToday a {
+    color: #203375;
 }
 
 footer {
