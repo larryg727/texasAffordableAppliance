@@ -3,7 +3,7 @@
  */
 "use strict";
 (function(){
-
+    // Set up the map
     function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
             zoom: 9,
@@ -39,8 +39,13 @@
         });
         serviceArea.setMap(map);
     }
-
+// Initialize the map
 initMap();
+    
+// Click event for mobile nav menu
+    $("#hamburgerContainer").click(function(){
+        $("#mobileNav").slideToggle();
+    })
 
 })();
 

@@ -12,14 +12,16 @@ a {
     color: inherit;
 }
 
-
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
 
 #navBar {
     width: 100%;
     background-color: #ffffff;
-    position: fixed;
-    top: 0;
-    z-index: 2;
 }
 
 #navLeft {
@@ -73,6 +75,29 @@ a {
     padding: 10px;
     margin: 10px 5px;
     width: 70px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#mobileNav {
+    background-color: rgba(255, 255, 255, 0.51);
+    width: 100%;
+    display: none;
+}
+
+#mobileNavList {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.mobileNavBtn {
+    display: inline-block;
+    background-color: #203375;
+    font-size: .8em;
+    padding: 10px;
+    margin: 10px 2%;
+    width: 50px;
     color: #fff;
     border-radius: 10px;
 }
@@ -346,6 +371,15 @@ footer ul {
 }
 
 @media screen and (max-width: 362px) {
+
+    .mobileNavBtn {
+        display: inline-block;
+        background-color: #203375;
+        font-size: .7em;
+        padding: 8px;
+        margin: 10px 2%;
+
+    }
 
     #callToday{
         font-size: 1.5em;
