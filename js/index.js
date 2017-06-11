@@ -41,11 +41,6 @@
     }
 // Initialize the map
 initMap();
-    
-// Click event for mobile nav menu
-    $("#hamburgerContainer").click(function(){
-        $("#mobileNav").slideToggle();
-    })
 
 })();
 

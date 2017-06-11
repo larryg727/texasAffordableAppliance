@@ -195,6 +195,12 @@ main {
     height: 400px;
 }
 
+.section {
+    width: 80%;
+    margin: 80px auto 140px auto;
+    font-size: 1.4em;
+}
+
 span {
     color: #CD0000;
 }
@@ -234,6 +240,12 @@ footer ul {
     display: inline-block;
     position: absolute;
     left: 20px;
+}
+
+#pageTitle {
+    font-size: 5em;
+    color: #203375;
+    margin: 70px auto 40px auto;
 }
 
 @media screen and (max-width: 1165px) {
@@ -321,6 +333,14 @@ footer ul {
 
     #brandImg {
         width: 100%
+    }
+
+    .section {
+        width: 100%
+    }
+
+    #pageTitle {
+        font-size: 3.5em;
     }
 
 }
