@@ -32,12 +32,31 @@ a {
     height: 56px;
 }
 
-#navLeft > h1{
+#txLg {
     font-size: 40px;
     color: #203375;
     display: inline-block;
    vertical-align: text-bottom;
     margin: 0 auto 7px auto;
+}
+
+#txSm {
+    display: none;
+    vertical-align: text-bottom;
+    font-size: 23px;
+}
+
+#hamburgerContainer {
+    display: none;
+   margin: 9px 20px;
+}
+
+.hamburgerMenu {
+    width: 35px;
+    height: 5px;
+    background-color: #203375;
+    margin: 6px 0;
+    border-radius: 35%;
 }
 
 #navList {
@@ -76,12 +95,20 @@ a {
 
 header {
     width: 100%;
+    max-width: 1480px;
     text-align: center;
+    margin: 0 auto;
 }
 
 #heroLogo {
     width: 100%;
     margin: 0 auto;
+}
+
+#mobileHeroLogo {
+    width: 100%;
+    margin: 0 auto;
+    display: none;
 }
 
 header h1 {
@@ -90,8 +117,15 @@ header h1 {
     color: #203375;
 }
 
+#mobileOnly {
+    display: none;
+    color: #CD0000;
+    font-size: 1.8em;
+}
+
 main {
     width: 85%;
+    max-width: 1400px;
     margin: 0 auto;
     text-align: center;
 }
@@ -175,4 +209,155 @@ footer ul {
     display: inline-block;
     position: absolute;
     left: 20px;
+}
+
+@media screen and (max-width: 1165px) {
+
+    #navList {
+        display: none;
+    }
+
+    #navLeft {
+        width: 50%;
+    }
+
+    #navRight {
+        width: 49%;
+    }
+
+    #hamburgerContainer {
+        display: inline-block;
+    }
+
+}
+
+@media screen and (max-width: 830px) {
+
+    #navLeft {
+        width: 30%;
+    }
+
+    #txLg {
+        display: none;
+    }
+
+    #txSm {
+        display: inline-block;
+    }
+
+    #navRight {
+        width: 69%;
+    }
+
+    .column {
+        font-size: 1em;
+    }
+
+    header h1 {
+        margin: -20px auto;
+        font-size: 2em;
+    }
+
+    h1 {
+        font-size: 1.7em;
+    }
+
+    #footRight {
+        display: block;
+        position: relative;
+        margin: 16px auto 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 615px) {
+
+    #navRight h1 {
+        font-size: 25px;
+        margin: 15px auto;
+    }
+
+    #txSm {
+        margin: 7px auto;
+        font-size: 18px;
+    }
+
+    #navLeft {
+        width: 35%;
+    }
+
+    #navRight {
+        width: 64%;
+    }
+
+    .column {
+        width: 90%;
+    }
+
+    #brandImg {
+        width: 100%
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    #txSm {
+        display: none;
+    }
+
+    #navLeft {
+        width: 20%;
+    }
+
+    #navRight {
+        width: 77%;
+    }
+
+    header h1 {
+        margin: 0 auto;
+        font-size: 1.4em;
+    }
+
+    h1 {
+        font-size: 1.3em;
+    }
+
+    h2 {
+        font-size: 1.1em;
+    }
+
+    main {
+        width: 95%
+    }
+
+    #heroLogo {
+        display: none;
+    }
+
+    #mobileHeroLogo {
+        display: block;
+    }
+
+    #mobileOnly {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 362px) {
+
+    #callToday{
+        font-size: 1.5em;
+    }
+
+    #navRight h1 {
+        font-size: 18px;
+        margin: 20px auto;
+    }
+
+    main {
+        width: 100%;
+    }
+
 }

@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
     <meta name="author" content="Larry Gonzales">
-    <meta name="description" content="Texas Affordable Appliance repairs residential appliances in San Antonio and surrounding areas.">
-    <meta name="keywords" content="appliance repair, san antonio, washer, dryer, refrigerator, stove, oven, range, dishwasher, broken, fix">
+    <meta name="description"
+          content="Texas Affordable Appliance repairs residential appliances in San Antonio and surrounding areas.">
+    <meta name="keywords"
+          content="appliance repair, san antonio, washer, dryer, refrigerator, stove, oven, range, dishwasher, broken, fix">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="favicon.ico"/>
@@ -12,51 +14,69 @@
     <title>Texas Affordable Appliance</title>
 </head>
 <body>
-    <nav>
-        <div id="navBar">
-            
-            <div id="navLeft">
-                <img id="navLogo" src="./img/texas.png" alt="texas logo">
-                <h1>Texas Affordable</h1>
-            </div>
+<nav>
+    <div id="navBar">
 
-            <ul id="navList">
-                <li class="navBtn">Home</li>
-                <li class="navBtn">About</li>
-                <li class="navBtn">Services</li>
-                <li class="navBtn">Contact</li>
-            </ul>
-
-            <div id="navRight">
-                <h1><a href="tel:2106362660">(210) 636-2660</a></h1>
-            </div>
-        
+        <div id="navLeft">
+            <img id="navLogo" src="./img/texas.png" alt="texas logo">
+            <h1 id="txLg">Texas Affordable</h1>
+            <div id="txSm">Texas<br>Affordable</div>
         </div>
-    </nav>
 
-    <header>
-        <img id="heroLogo" src="./img/texashero.png" alt="texas affordable appliance logo">
-        <h1>Call today to set up an appointment.</h1>
-    </header>
+        <ul id="navList">
+            <a href="index.html">
+                <li class="navBtn">Home</li>
+            </a>
+            <a href="about.html">
+                <li class="navBtn">About</li>
+            </a>
+            <a href="services.html">
+                <li class="navBtn">Services</li>
+            </a>
+            <a href="contact.html">
+                <li class="navBtn">Contact</li>
+            </a>
+        </ul>
+
+        <div id="navRight">
+            <h1><a href="tel:2106362660">(210) 636-2660</a></h1>
+            <div id="hamburgerContainer">
+                <div class="hamburgerMenu"></div>
+                <div class="hamburgerMenu"></div>
+                <div class="hamburgerMenu"></div>
+            </div>
+        </div>
+
+    </div>
+</nav>
+
+<header>
+    <img id="heroLogo" src="./img/texashero.png" alt="texas affordable appliance logo">
+    <img id="mobileHeroLogo" src="./img/texasmobilehero.png" alt="">
+    <h1 id="mobileOnly">(210 636-2660</h1>
+    <h1>Call today to set up an appointment.</h1>
+</header>
 
 <main>
 
     <div id="services">
-        <h1>We repair all major brands of refrigerators, washers, dryers, ranges, ovens, cooktops, microwaves, dishwashers, and freezers.</h1>
+        <h1>We repair all major brands of refrigerators, washers, dryers, ranges, ovens, cooktops, microwaves,
+            dishwashers, and freezers.</h1>
         <img src="img/appliancebrands.png" alt="appliance brands" id="brandImg">
     </div>
 
     <div class="column">
         <h1>Areas we service</h1>
         <h3>San antonio and surrounding areas.</h3>
-           <h3> Boerne, Fair Oaks, Helotes, Bulverde, Spring Branch, Schertz, Cibolo, New Braunfuls, Von Army, Floreseville, La Vernia, Marion and more.</h3>
+        <h3> Boerne, Fair Oaks, Helotes, Bulverde, Spring Branch, Schertz, Cibolo, New Braunfuls, Von Army,
+            Floreseville, La Vernia, Marion and more.</h3>
     </div>
 
-   <div class="column" id="map"></div>
+    <div class="column" id="map"></div>
 
     <div class="column">
         <h1>Featured Services</h1>
-        <h2>For your continence</h2>
+        <h2>For your convenience</h2>
         <ul>
             <li><span>3 hr appointment windows</span></li>
             <li><span>Courtesy call when technician en route</span></li>
@@ -79,19 +99,27 @@
     </div>
     <h1 id="callToday"><a href="tel:2106362660">(210) 636-2660</a><br>Call us today to set up your appointment.</h1>
 </main>
-    <footer>
-        <ul>
+<footer>
+    <ul>
+        <a href="index.html">
             <li class="footerList">Home</li>
+        </a>
+        <a href="about.html">
             <li class="footerList">About</li>
+        </a>
+        <a href="services.html">
             <li class="footerList">Services</li>
+        </a>
+        <a href="contact.html">
             <li class="footerList">Contact</li>
-        </ul>
-        <p id="footRight">Developed by Larry Gonzales</p>
-        <p id="footLeft">&copy; 2017 Texas Affordable Appliance</p>
+        </a>
+    </ul>
+    <p id="footRight">Developed by Larry Gonzales</p>
+    <p id="footLeft">&copy; 2017 Texas Affordable Appliance</p>
 
-    </footer>
+</footer>
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrAa4WKQBvUJMS6mVty9WE7xaOU9dV64Q"></script>
-    <script src="js/index.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrAa4WKQBvUJMS6mVty9WE7xaOU9dV64Q"></script>
+<script src="js/index.js"></script>
 </body>
 </html>
