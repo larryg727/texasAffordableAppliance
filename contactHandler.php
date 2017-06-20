@@ -19,8 +19,8 @@ function test_input($data) {
 }
 
 $to = "txaffordable@gmail.com";
-$subject = "Message from visitor@ TexasAffordable.repair";
-$header = "From: " . $email;
+$subject = "A visitor has submitted a message.";
+$header = "From: Visitor@txaffordble.repair";
 $msg = $msg . wordwrap($message,70);
 
 if(mail($to,$subject,$msg,$header)) {
