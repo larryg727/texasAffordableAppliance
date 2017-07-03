@@ -20,7 +20,7 @@ function test_input($data) {
 
 $to = "txaffordable@gmail.com";
 $subject = "A visitor has submitted a message.";
-$header = "From: Visitor@txaffordble.repair";
+$header = "From: Visitor@txaffordable.repair";
 $msg = $msg . wordwrap($message,70);
 
 if(mail($to,$subject,$msg,$header)) {
