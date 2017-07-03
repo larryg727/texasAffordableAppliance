@@ -9,7 +9,7 @@ if(isset($_POST['submit'])) {
     $message = test_input($_POST['message']);
 }
 
-$msg = "You have a new messafe.\n Name: " . $name . "\n Email: " . $email . "\n Phone: " . $phone . "\n Message:  ";
+$msg = "You have a new message.\n Name: " . $name . "\n Email: " . $email . "\n Phone: " . $phone . "\n Message:  ";
 
 function test_input($data) {
   $data = trim($data);
