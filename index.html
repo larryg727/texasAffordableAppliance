@@ -99,45 +99,55 @@
             <button type="submit" name="submit" value="submit">Submit</button>
         </form>
     </div>
-
+    
 </header>
 
 <main>
-  
-        <div class="innerContainer">
+     <div class="container">
+
+        <div class="column">
+            <h1>Areas we service</h1>
+            <h3>San antonio and surrounding areas.</h3>
+            <h3> Boerne, Fair Oaks, Helotes, Bulverde, Spring Branch, Schertz, Cibolo, New Braunfuls, Von Army,
+                Floresville, La Vernia, Marion and more.</h3>
+        </div>
+
+        <div id="zipCheckBox" class="column">
+            <h1 id="zipHeader">Check your zipcode.</h1>
+            <h3 id="zipSuccess">You are located in our service area. Give us a call <span><a href="tel:2106362660">(210) 636-2660</a></span> or <a href="#headRight"><span>send us a message</span></a> to schedule your service.</h3>
+            <h2 id="zipFail">Sorry your zipcode is out of our service area.</h2>
+            <input type="text" name="zip" id="zip">
+            <button type="submit" id="zipCheck">Check Zipcode</button>
+        </div>
+
+        <div id="map"></div>
+            
+        <div class="column">
+            <h1>Hours of Operation</h1>
+            <h3>Monday-Friday 9am-5pm</h3>
+            <h3>Saturday 10am-2pm</h3>
+            <h3>Sunday Closed</h3>
+        </div>
+
+        <div class="column">
+            <h1>Discount</h1>
+            <h3>We offer 10% off repairs to all Military and Seniors.</h3>
+        </div>
+
+    </div>
+       
+    <div class="whiteBlock">
+        <div class="container">
             <div id="services">
                 <h1>We repair all major brands of refrigerators, washers, dryers, ranges, ovens, cooktops, microwaves,
                     dishwashers, and freezers.</h1>
                 <img src="img/appliancebrands.png" alt="appliance brands" id="brandImg">
             </div>
         </div>
-    <div class="whiteBlock">
-        <div class="innerContainer">
-            <div class="column">
-                <h1>Hours of Operation</h1>
-                <h3>Monday-Friday 9am-5pm</h3>
-                <h3>Saturday 10am-2pm</h3>
-                <h3>Sunday Closed</h3>
-            </div>
-
-            <div class="column">
-                <h1>Discount</h1>
-                <h3>We offer 10% off repairs to all Military and Seniors.</h3>
-            </div>
-
-            <div class="column">
-                <h1>Areas we service</h1>
-                <h3>San antonio and surrounding areas.</h3>
-                <h3> Boerne, Fair Oaks, Helotes, Bulverde, Spring Branch, Schertz, Cibolo, New Braunfuls, Von Army,
-                    Floreseville, La Vernia, Marion and more.</h3>
-            </div>
-
-            <div class="column" id="map"></div>
-        </div>
     </div>
 
     
-        <div class="innerContainer">
+        <div class="container">
             <div class="column">
                 <h1>Featured Services</h1>
                 <h2>For your convenience</h2>

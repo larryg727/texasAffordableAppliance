@@ -130,8 +130,8 @@ header {
     padding-bottom: 80px;
     background:
             linear-gradient(
-                    rgba(0, 0, 0, 0.7),
-                    rgba(0, 0, 0, 0.7)
+                    rgba(0, 0, 0,0.65),
+                    rgba(0, 0, 0, 0.65)
             ),
             url("../img/washingMach.jpg") no-repeat top center fixed;
     -webkit-background-size: cover;
@@ -139,8 +139,9 @@ header {
     -o-background-size: cover;
     background-size: cover;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-around;
+    border-bottom: 10px ridge #CD0000;
 }
 
 #headLeft, #headRight {
@@ -154,6 +155,10 @@ header {
 
 #headRight {
     width: 40%;
+}
+
+#headRight > h1, #headRight > span {
+    margin: 0 5% 0 15%;
 }
 
 #heroLogo {
@@ -198,11 +203,15 @@ header label {
     margin: 50px auto;
 }
 
-.innerContainer {
+.container {
     width: 85%;
     max-width: 1300px;
     margin: 0 auto;
     text-align: center;
+}
+
+#zipCheck {
+    margin: 20px 20px;
 }
 
 #services {
@@ -243,6 +252,8 @@ header label {
 #map {
 
     height: 400px;
+    margin: 0 auto 50px auto;
+    width: 70%;
 }
 
 .section {
@@ -253,6 +264,10 @@ header label {
 
 span {
     color: #CD0000;
+}
+
+#zipSuccess, #zipFail {
+    display: none;
 }
 
 #callToday {
@@ -324,7 +339,7 @@ input {
 textarea {
     box-sizing: border-box;
      padding: 10px;
-    width: 73%;
+    width: 74%;
     border-radius: 10px;
     font-size: 18px;
 }
@@ -365,6 +380,10 @@ button {
 
     #hamburgerContainer {
         display: inline-block;
+    }
+
+    #headRight, #headLeft {
+        width: 80%;
     }
 
 }
@@ -503,6 +522,18 @@ button {
 
     #mobileOnly {
         display: block;
+    }
+
+    #headLeft {
+        width: 100%;
+    }
+
+    #headRight {
+        width: 90%;
+    }
+
+    #headRight > h1, #headRight > span, #headRight button {
+        margin: 0 auto;
     }
 
 }
